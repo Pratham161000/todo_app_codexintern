@@ -1,35 +1,3 @@
-// import React, { createContext, useState } from 'react';
-
-// // Create the context
-// export const TodoContext = createContext();
-
-// // Provider component
-// export const TodoProvider = ({ children }) => {
-//   const [todos, setTodos] = useState([]);
-
-//   const addTodo = (text) => {
-//     setTodos([...todos, { id: Date.now(), text, completed: false }]);
-//   };
-
-//   const deleteTodo = (id) => {
-//     setTodos(todos.filter((todo) => todo.id !== id));
-//   };
-
-//   const updateTodo = (id, newText) => {
-//     setTodos(
-//       todos.map((todo) =>
-//         todo.id === id ? { ...todo, text: newText } : todo
-//       )
-//     );
-//   };
-
-//   return (
-//     <TodoContext.Provider value={{ todos, addTodo, deleteTodo, updateTodo }}>
-//       {children}
-//     </TodoContext.Provider>
-//   );
-// };
-
 import React, { createContext, useState } from "react";
 
 export const TodoContext = createContext();

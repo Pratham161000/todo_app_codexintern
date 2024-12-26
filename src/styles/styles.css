@@ -1,9 +1,9 @@
-/* General Styles */
+
 body {
   font-family: "Arial", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f0f8ff; /* Light blue background */
+  background-color: #f0f8ff; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,12 +58,11 @@ h1 {
   background-color: #218838;
 }
 
-/* Table Section */
 .todo-table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 10px;
-  border: 2px solid #007bff; /* Unique border styling */
+  border: 2px solid #007bff; 
   border-radius: 5px;
   overflow: hidden;
 }
@@ -147,23 +146,23 @@ h1 {
 }
 
 .complete-btn {
-  background-color: #007bff; /* Blue background */
-  color: white; /* White text */
-  border: none; /* Remove default border */
-  padding: 10px 20px; /* Add padding for better appearance */
-  border-radius: 50px; /* Rounded slider-like edges */
-  font-size: 14px; /* Adjust font size */
-  cursor: pointer; /* Pointer cursor on hover */
-  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  background-color: #007bff; 
+  color: white; 
+  border: none; 
+  padding: 10px 20px; 
+  border-radius: 50px; 
+  font-size: 14px; 
+  cursor: pointer; 
+  transition: all 0.3s ease; 
 }
 
 .complete-btn:hover {
-  background-color: #0056b3; /* Darker blue on hover */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
-  transform: scale(1.05); /* Slightly enlarge button on hover */
+  background-color: #0056b3; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
+  transform: scale(1.05); 
 }
 
 .complete-btn:active {
-  background-color: #004085; /* Even darker blue when clicked */
-  transform: scale(0.95); /* Slightly shrink when clicked */
+  background-color: #004085; 
+  transform: scale(0.95); 
 }

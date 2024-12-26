@@ -4,7 +4,6 @@ import "./App.css";
 
 const App = () => {
   const [tasks, setTasks] = useState(() => {
-    // Load tasks from local storage during initialization
     const savedTasks = localStorage.getItem("tasks");
     return savedTasks ? JSON.parse(savedTasks) : [];
   });
@@ -12,7 +11,6 @@ const App = () => {
   const [editTaskId, setEditTaskId] = useState(null);
   const [editTaskInput, setEditTaskInput] = useState("");
 
-  // Update local storage whenever tasks change
   useEffect(() => {
     localStorage.setItem("tasks", JSON.stringify(tasks));
   }, [tasks]);
